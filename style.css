@@ -1,0 +1,24 @@
+button:hover{
+    
+    transform: translateY(-2px);
+    box-shadow: 0px 10px 25px rgb(77, 77, 77);
+}
+button{
+    transition: all 0.3s ease;
+}
+
+/* animation */
+
+.vegetables{
+    position: relative;
+    animation: flower 1.5s ease 0s 1 ;
+
+}
+@keyframes flower {
+    from{
+        top: 700px;
+    }
+    to{
+        top: 0;
+    }
+}
